@@ -9,6 +9,7 @@ terraform {
       }
     }
     
+    ## Read the README file for running terraform init command with backend configuration file
     backend "s3" {
       encrypt = true
       use_lockfile = true
