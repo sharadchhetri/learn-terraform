@@ -3,17 +3,17 @@
 In this repo we are keeping the terraform code for learning purpose. Currently we are using the provider called aws.
 
 # Install Terraform
-https://developer.hashicorp.com/terraform/install 
+Visit [Terrafrom](https://developer.hashicorp.com/terraform/install) 
 
 # Highlights
 Given below are sample code for learning.
 
-1. Terraform backend: Usig s3 bucket which will remotely save the tfstat file.
+1. Terraform backend: Using s3 bucket which will remotely save the tfstat file.
 2. Local Variable file.
 3. Variable files (.tfvars and .tf) | dev.tfvars is for dev environment.
 4. Module (example s3_bucket)
 
-Note:
+**Note:**
 In native terraform, we cannot use input variables, local values, or data source attributes inside a backend configuration block.
 
 Alternatively, you can use given below two methods.
