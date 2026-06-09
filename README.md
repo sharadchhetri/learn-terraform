@@ -31,8 +31,8 @@ terraform {
 ```
 # In command line
 terraform init \
-  -backend-config="bucket=my-prod-tfstate-bucket" \
-  -backend-config="key=networks/terraform.tfstate" \
+  -backend-config="bucket=my-dev-tfstate-bucket" \
+  -backend-config="key=dev/terraform.tfstate" \
   -backend-config="region=us-east-1"
   ```
 
