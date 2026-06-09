@@ -2,6 +2,9 @@
 
 In this repo we are keeping the terraform code for learning purpose. Currently we are using the provider called aws.
 
+# Install Terraform
+https://developer.hashicorp.com/terraform/install 
+
 # Highlights
 Given below are sample code for learning.
 
